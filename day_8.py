@@ -36,3 +36,17 @@ print(list4[-3:-1])
 if "apple" in list4:
     print("yes apple is present")
 
+#append function
+list4.append("orange")
+
+#extend function
+list4.extend(["mango","grapes"])
+
+#remove function
+list4.remove("banana")
+
+#pop function
+list4.pop()  #removes last element
+list4.pop(1) #removes element at index 1
+print(list4)
+
