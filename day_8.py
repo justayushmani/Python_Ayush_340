@@ -93,3 +93,24 @@ list0=["Apple","cherry","banana"]
 list0.reverse()
 print(list0)
 
+
+#copy one list to other
+list7=fruits.copy()
+print(list7)
+
+#join two list
+list7=[1,2,3,4,5]
+list8=[1,2,3,4,5]
+list9 = list7 + list8
+print(list9)
+
+#append function in list
+list9.append(6)
+print(list9)
+
+#extend function in list
+list9.extend([7,8,9])
+print(list9)    
+
+
+
