@@ -42,3 +42,4 @@ with open("example.txt", "r") as file:
 with open("example.txt", "w") as file:
     file.write("First line using write().\n")
     file.writelines(["Second line using writelines().\n", "Third line using writelines().\n"])
+
